@@ -1,0 +1,3 @@
+[submodule "submodules/npm-test"]
+	path = submodules/npm-test
+	url = https://github.com/Tsuuko/npm-test.git
