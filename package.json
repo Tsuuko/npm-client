@@ -1,0 +1,15 @@
+{
+  "name": "npm-client",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "cd ./submodules/npm-test&&yarn install&&yarn build"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@tsuuko/npm-test": "link:./submodules/npm-test"
+  }
+}
